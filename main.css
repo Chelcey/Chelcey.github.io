@@ -192,10 +192,4 @@ h2 {
 	font-size: 24px;
 }
 
-.swiper-button-prev {
-	left: -80px; /* push left arrow out */
-}
 
-.swiper-button-next {
-	right: -80px; /* push right arrow out */
-}
