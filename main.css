@@ -183,10 +183,10 @@ h2 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 1000px; 
-	margin: 0 auto;
+	width: 900px; 
+	margin: 10px auto;
 	position: relative;
-	top: - 300px;
+	top: - 280px;
 }
 
 .swiper-button-prev {
