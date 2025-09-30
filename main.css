@@ -165,7 +165,9 @@ h2 {
 .swiper {
 		width: 900px; 
 		height: 500px;
-		margin: 40px auto;
+		margin: auto; /* center the swiper */
+		position: relative; /* allows absolute arrows */
+		overflow: visible; /* allows arrows to extend outside */
 	}
 
 .swiper-slide img {
@@ -177,9 +179,9 @@ h2 {
 
 /* Move navigation arrows outside the swiper image */
 .swiper-button-prev {
-	left: -50px; /* push left arrow out */
+	left: -60px; /* push left arrow out */
 }
 
 .swiper-button-next {
-	right: -50px; /* push right arrow out */
+	right: -60px; /* push right arrow out */
 }
