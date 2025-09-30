@@ -179,10 +179,22 @@ h2 {
 	}
 
 /* Move navigation arrows outside the swiper image */
+.swiper-button-prev,.swiper-button-next {
+	top: 50%;
+	transform: translateY(-50%);
+	width: 40px;
+	height: 40px;
+	color: #333;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+	z-index: 10;
+}
+
 .swiper-button-prev {
-	left: -50px; /* push left arrow out */
+	left: -80px; /* push left arrow out */
 }
 
 .swiper-button-next {
-	right: -50px; /* push right arrow out */
+	right: -80px; /* push right arrow out */
 }
