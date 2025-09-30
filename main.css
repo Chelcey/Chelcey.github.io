@@ -164,9 +164,10 @@ h2 {
 
 /* Swiper container size */
 .swiper {
-		width: 900px; 
-		height: 500px;
-		margin: 40px auto;
+		width: 100%; 		/* take full available width */
+		max-wdith: 900px;	/* don't stretch past 900px on large screens */
+	aspect-ratio: 16 / 9;	/* keeps a good responsive ratio */
+		margin: 20px auto;
 	}
 
 .swiper-slide img {
