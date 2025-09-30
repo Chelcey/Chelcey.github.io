@@ -177,9 +177,9 @@ h2 {
 
 /* Move navigation arrows outside the swiper image */
 .swiper-button-prev {
-	left: -60px; /* push left arrow out */
+	left: -50px; /* push left arrow out */
 }
 
 .swiper-button-next {
-	right: -60px; /* push right arrow out */
+	right: -50px; /* push right arrow out */
 }
