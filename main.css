@@ -182,6 +182,8 @@ h2 {
 	height: 30px;
 	background-size: 30px 30px;
 	color: #333;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .swiper-button-next::after,.swiper-button-prev::after{
