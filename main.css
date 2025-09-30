@@ -53,7 +53,7 @@ body {
   background-color: #e7ded9;
   color: white;
   font-size: 50px;
-  text-align: center; /* centers title */
+  /*text-align: center; /* centers title */*/
   position: static;
   width: 100%;
   top: 0;
