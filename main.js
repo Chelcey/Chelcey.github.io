@@ -1,17 +1,15 @@
-const swiper = new Swiper('.project1', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: true,
-
-        //Progress bar pagination
-        pagination: {
-            el: '.project1.swiper-pagination',
-            type: 'progressbar',
-           },
-
-        //Navigation arrows
-        navigation: {
-            nextEl: '.project1.swiper-button-next',
-            prevEl: '.project1.swiper-button-prev',
-            },
-         });
+document.querySelectorAll('.swiper').forEach(slider => {
+        new Swiper(slider, {
+                direction: 'horizontal',
+                loop: true,
+                pagination: {
+                        el: slider.querySelector('.swiper-pagination'),
+                        type: 'progressbar'
+                },
+                navigation: {
+                        nextEl: slider.querySelector('.swiper-button-next'),
+                        prevEl: slider.querySelector('.swiper-button-prev'),
+                },
+        });
+});
+                                             
