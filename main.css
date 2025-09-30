@@ -165,9 +165,7 @@ h2 {
 .swiper {
 		width: 900px; 
 		height: 500px;
-		margin: auto; /* center the swiper */
-		position: relative; /* allows absolute arrows */
-		overflow: visible; /* allows arrows to extend outside */
+		margin: 40px auto; 
 	}
 
 .swiper-slide img {
