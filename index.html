@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Swiper stylesheet -->
@@ -13,9 +13,12 @@
   <style>
     body {
       font-family: Canva Sans;
+      background-color: #F5F5DC;
+      margin: 0;
+      padding: 0;
     }
 
-    /* Tabs */
+    /* Tab styles */
     .tab {
       overflow: hidden;
       border: 1px solid #ccc;
@@ -43,57 +46,76 @@
 
     .tabcontent {
       display: none;
-      padding: 6px 12px;
+      padding: 20px;
       border: 1px solid #ccc;
       border-top: none;
     }
 
-    /* Contact form */
+    /* Home #codebox */
+    #codebox {
+      background-color: #000;
+      padding: 10px 50px;
+      border: 3px solid green;
+      color: white;
+      font-family: monospace;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    #codebox button {
+      font-family: "Avenir Light";
+      color: white;
+      background-color: black;
+      border: 3px solid #7d9174;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 18px;
+      display: block;
+      margin: 20px auto 0 auto;
+    }
+
+    #codebox button:hover {
+      background-color: black;
+      color: yellow;
+    }
+
+    /* Center image */
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Contact container */
     .container {
       border-radius: 5px;
       background-color: #f1f1f1;
       font-family: 'Avenir';
       padding: 20px;
       border: 3px solid green;
-    }
-
-    /* Buttons for projects */
-    .btn-group {
       text-align: center;
     }
 
-    .btn-group a {
-      display: inline-block;
-      text-decoration: none;
+    /* Swiper */
+    .swiper {
+      width: 900px;
+      height: 500px;
+      margin: 40px auto;
     }
 
-    .btn-group button {
-      border: 3px solid green;
-      color: black;
-      padding: 10px 24px;
-      cursor: pointer;
-      width: 200px;
-      margin: 5px;
-      font-size: 16px;
-      border-radius: 5px;
+    .swiper-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
     }
-
-    .btn-group .btn1 { background-color: #f1f1f1; }
-    .btn-group .btn2 { background-color: #E7DED9; }
-    .btn-group .btn3 { background-color: #F4C3C4; }
-    .btn-group .btn4 { background-color: #f1f1f1; color: black; }
-
-    .btn-group button:hover { opacity: 0.8; }
 
   </style>
 </head>
-
-<body style="background-color:#F5F5DC;">
+<body>
 
   <!-- Profile Image -->
-  <p>
-    <img id="image1" src="0902chibi.png" alt="Professional Image" width="200" height="200" class="center">
-  </p>
+  <img id="image1" src="0902chibi.png" alt="Add a professional image" width="200" height="200" class="center">
 
   <!-- Tabs -->
   <div class="tab">
@@ -105,8 +127,9 @@
   <!-- Home Tab -->
   <div id="Home" class="tabcontent">
     <h1 style="font-family: 'Avenir', sans-serif; color: #7D9174; font-size: 65px; font-weight: bold;">
-      Hello, World :) <br>My name is Chelcey!
+      Hello, World :)<br>My name is Chelcey!
     </h1>
+
     <p style="font-family: 'Avenir Light'; color: #7D9174; font-size: 20px;">
       ASPIRING PRODUCT DESIGNER <br> FREELANCE WEB DEVELOPER
     </p>
@@ -129,69 +152,12 @@
     <div class="section project1">
       <div class="content-wrapper">
         <div class="text-content">
-          <h2 style="color:MediumBlue;">Project 1:</h2>
-          <h1>Don’t Get It Twisted (Tongue Twister App)</h1>
+          <h2 style="color: MediumBlue;">Project 1: Don’t Get It Twisted (Tongue Twister App)</h2>
 
-          <!-- Swiper -->
           <div class="swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="tongue-twister-app/one.png" alt="P1 Slide 1"></div>
-              <div class="swiper-slide"><img src="tongue-twister-app/two.png" alt="P1 Slide 2"></div>
-              <div class="swiper-slide"><img src="tongue-twister-app/three.png" alt="P1 Slide 3"></div>
-              <!-- Add remaining slides similarly -->
-            </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          </div>
-
-          <p>
-            <span style="color:MediumBlue;"><strong>Live Project Link:</strong></span><br>
-            👉 <a href="https://sites.google.com/ucsd.edu/dontgetittwisted/team-21-7-x-3-members">Tongue Twister App Team Portfolio</a>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Project 3 -->
-    <div class="section project3">
-      <div class="content-wrapper">
-        <div class="text-content">
-          <h2 style="color:MediumBlue;">Project 3</h2>
-          <h1>Hotel Website</h1>
-          <p> 🔄 Pending...</p>
-        </div>
-        <img src="https://via.placeholder.com/200" alt="Project 3 Image">
-      </div>
-    </div>
-
-    <!-- Project 4 placeholder -->
-    <!-- <div class="section project4">Project 4 goes here</div> -->
-
-  </div>
-
-  <!-- Contact Tab -->
-  <div id="Contact" class="tabcontent">
-    <h3 style="font-family: 'Avenir Light'; color: #7D9174; font-size: 25px;">
-      Feel free to message me below, if you have any job offers, proposals, or networking opportunities that you think may match my interests.
-    </h3>
-    <div class="container">
-      <center>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfwHHQ2Kx1Aq51-_bxA6EJ3WY4eh-wncd8hEKIunp3Ed-bcow/viewform?embedded=true" width="640" height="950" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      </center>
-    </div>
-  </div>
-
-  <!-- Scripts -->
-  <script>
-    function openCity(evt, cityName) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablinks");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-      }
-      document.getElementById(cityName).style.display = "bloc
+              <div class="swiper-slide"><img src="tongue-twister-app/one.png" alt="P1- Slide 1"></div>
+              <div class="swiper-slide"><img src="tongue-twister-app/two.png" alt="P1- Slide 2"></div>
+              <div class="swiper-slide"><img src="tongue-twister-app/three.png" alt="P1- Slide 3"></div>
+              <div class="swiper-slide"><img src="tongue-twister-app/four.png" alt="P1- Slide 4"></div>
+              <div class="swiper-
