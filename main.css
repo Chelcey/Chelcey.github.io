@@ -163,8 +163,10 @@ h2 {
 
 /* Swiper container size */
 .swiper {
-		width: 900px; 
-		height: 500px;
+		width: 100%;		 /* take full width of container */
+		max-width: 900px;	 /* but don't get too wide on big screens */
+		height: auto; 		 /* allow height to adjust */
+		aspect-ratio: 16/9;	  /* maintain 16:9 ratio */
 		margin: 40px auto;
 	}
 
