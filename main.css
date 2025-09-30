@@ -53,6 +53,7 @@ body {
   background-color: #e7ded9;
   color: white;
   font-size: 50px;
+  text-align: center; /* centers title */
   position: static;
   width: 100%;
   top: 0;
@@ -86,6 +87,23 @@ gap: 10px; /* Adjustable gap size */
   height: 300px; /* Setting a fixed height for all images */
 }
 
+/*Base (mobile):stacked */
+.content-wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Larger screens: side by side */
+@media screen and (min-width: 768px) {
+	.content-wrapper {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 40px;
+	}
+}
+
 @media screen and (min-width: 768px) {
   .grid-container {
     grid-template-columns: 1fr 1fr 1fr 1fr; /* Large Screens: 4 products per row */
@@ -104,19 +122,11 @@ body {
 /* Make each section full width with color */
 .section {
   width: 100%;
-  padding: 0; /* No side padding here */
+  padding: 40px 20px;
+  /*padding: 0; /* No side padding here */ */
 }
 
-/* Centered content inside each section */
-.content-wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 50px 40px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 40px;
-}
+
 
 /* Text styling */
 .text-content {
@@ -150,6 +160,12 @@ img {
   background-color: #c2c2ab;
   font-family: "Montserrat", sans-serif;
 }
+
+.section {
+		width: 100%;
+		padding: 40px 20px;
+		box-sizing: border-box;
+	} /* makes padding behave consistently */
 
 h2 {
   margin-top: 0;
