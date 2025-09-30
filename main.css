@@ -174,3 +174,12 @@ h2 {
 		object-fit: cover; /* fill slide, crop if necessary */
 		border-radius: 8px; /* optional rounded corners */
 	}
+
+/* Move navigation arrows outside the swiper image */
+.swiper-button-prev {
+	left: -50px; /* push left arrow out */
+}
+
+.swiper-button-next {
+	right: -50px; /* push right arrow out */
+}
