@@ -30,6 +30,8 @@
   width:90%;
   max-width: 600px;
   text-align: center;
+  margin: 0 auto; 	/* centers the entire codebox */
+  text-align: center; 	/*centers inline elements (button) */
 }
 
 #codebox button {
