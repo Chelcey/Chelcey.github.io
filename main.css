@@ -34,7 +34,8 @@
   padding: 10px 20px;
   cursor: pointer;
   font-size: 18px;
-  display: block;
+ /*display: block;*/
+  display: inline-block; 	/* centers properly with text-align */
   margin: 20px auto 0 auto;
 }
 
@@ -173,7 +174,8 @@ h2 {
 }
 
 .resume-button {
-  position: relative;
+  /*position: relative;*/
+	position: static;
   /*left: -50px;*/
 }
 
