@@ -62,32 +62,19 @@ body {
 }
 
 #websiteHeader {
- /* background-color: #e7ded9; */
-/*  color: white; */
-/*  font-size: 50px; */
+	background-color: #e7ded9; 
+	color: white; 
+	font-size: 50px; 
   /*text-align: center; /* centers title */*/
-/*  position: static; */
-/*  width: 100%; */
-/*  top: 0; */
-/*  left: 0; */
-/*  padding: 1em; */
-/*  -webkit-text-stroke-width: 1px; */
-/*  -webkit-text-stroke-color: black; */
+	position: static; 
+	width: 100%; 
+	top: 0; 
+    left: 0; 
+	padding: 1em; 
+	-webkit-text-stroke-width: 1px; 
+	-webkit-text-stroke-color: black; 
 }
 
-#websiteHeader {
-	background-color: #e7ded9;
-	color: white;
-	font-size: 50px;
-	text-align: center;
-	margin: 0 auto;
-	padding: 0.5em 0;
-	max-wdith: 1200px;
-	box-sizing: border-box;
-
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: black;
-}
 
 #Subheading {
   color: black;
