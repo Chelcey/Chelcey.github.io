@@ -5,7 +5,9 @@ footer {
 	font-size: 0.9rem;
 	color: #777;
 	width: 100%
-	box-sizing: border-box;
+}
+
+footer p {
 	margin: 0;
 }
 
