@@ -1,3 +1,7 @@
+#image2 {
+	border-radius: 0;
+}
+
 .container iframe {
 	width: 100% !important;
 	max-width: 100%;
