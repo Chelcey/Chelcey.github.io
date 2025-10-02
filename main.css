@@ -73,6 +73,7 @@ body {
   padding: 1em;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+	border-radius: 0;
 }
 
 #Subheading {
